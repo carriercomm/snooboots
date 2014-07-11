@@ -1,3 +1,13 @@
+# Snooboots notes
+
+There are probably smarter ways to do this, but to test this theme without taking forever I'm doing:
+
+```
+grunt less autoprefixer csscomb uglify:bootstrap uglify:docsJs cssmin usebanner copy && jekyll serve
+```
+
+And browsing to http://localhost:9001/examples/theme/#
+
 # [Bootstrap](http://getbootstrap.com)
 ![Bower version](https://img.shields.io/bower/v/bootstrap.svg?style=flat)
 [![npm version](https://img.shields.io/npm/v/bootstrap.svg?style=flat)](https://www.npmjs.com/package/bootstrap)
