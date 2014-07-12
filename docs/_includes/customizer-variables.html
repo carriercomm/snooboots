@@ -22,7 +22,7 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@gray-light">@gray-light</label>
-    <input id="input-@gray-light" type="text" value="lighten(@gray-base, 46.7%)" data-var="@gray-light" class="form-control"/>
+    <input id="input-@gray-light" type="text" value="lighten(@gray-base, 55.5%)" data-var="@gray-light" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@gray-lighter">@gray-lighter</label>
@@ -51,10 +51,14 @@
     <input id="input-@brand-danger" type="text" value="#d9534f" data-var="@brand-danger" class="form-control"/>
   </div>
   <div class="col-xs-4">
+    <label for="input-@brand-primary-bg-darkest">@brand-primary-bg-darkest</label>
+    <input id="input-@brand-primary-bg-darkest" type="text" value="#50799c" data-var="@brand-primary-bg-darkest" class="form-control"/>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
     <label for="input-@brand-primary-bg-darker">@brand-primary-bg-darker</label>
     <input id="input-@brand-primary-bg-darker" type="text" value="darken(@brand-primary-bg, 4%)" data-var="@brand-primary-bg-darker" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@brand-primary-bg">@brand-primary-bg</label>
     <input id="input-@brand-primary-bg" type="text" value="#C3E3F8" data-var="@brand-primary-bg" class="form-control"/>
@@ -63,11 +67,11 @@
     <label for="input-@brand-primary-bg-lighter">@brand-primary-bg-lighter</label>
     <input id="input-@brand-primary-bg-lighter" type="text" value="lighten(@brand-primary-bg, 4%)" data-var="@brand-primary-bg-lighter" class="form-control"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@brand-primary-bg-lightest">@brand-primary-bg-lightest</label>
     <input id="input-@brand-primary-bg-lightest" type="text" value="#EBF3FC" data-var="@brand-primary-bg-lightest" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@orangered">@orangered</label>
     <input id="input-@orangered" type="text" value="#FF4500" data-var="@orangered" class="form-control"/>
@@ -277,7 +281,7 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@component-active-color">@component-active-color</label>
-    <input id="input-@component-active-color" type="text" aria-describedby="help-block-@component-active-color" value="inherit" data-var="@component-active-color" class="form-control"/>
+    <input id="input-@component-active-color" type="text" aria-describedby="help-block-@component-active-color" value="@brand-primary" data-var="@component-active-color" class="form-control"/>
     <p id="help-block-@component-active-color" class="help-block">Global color for active items (e.g., navs or dropdowns).</p>
   </div>
   <div class="col-xs-4">
@@ -411,7 +415,7 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-danger-color">@btn-danger-color</label>
-    <input id="input-@btn-danger-color" type="text" value="@gray-dark" data-var="@btn-danger-color" class="form-control"/>
+    <input id="input-@btn-danger-color" type="text" value="#FFF" data-var="@btn-danger-color" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-danger-bg">@btn-danger-bg</label>
@@ -749,41 +753,41 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-color">@navbar-default-color</label>
-    <input id="input-@navbar-default-color" type="text" value="#777" data-var="@navbar-default-color" class="form-control"/>
+    <input id="input-@navbar-default-color" type="text" value="@text-color" data-var="@navbar-default-color" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-bg">@navbar-default-bg</label>
-    <input id="input-@navbar-default-bg" type="text" value="#f8f8f8" data-var="@navbar-default-bg" class="form-control"/>
+    <input id="input-@navbar-default-bg" type="text" value="@brand-primary-bg-lightest" data-var="@navbar-default-bg" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-border">@navbar-default-border</label>
-    <input id="input-@navbar-default-border" type="text" value="darken(@navbar-default-bg, 6.5%)" data-var="@navbar-default-border" class="form-control"/>
+    <input id="input-@navbar-default-border" type="text" value="@brand-primary-bg" data-var="@navbar-default-border" class="form-control"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-link-color">@navbar-default-link-color</label>
-    <input id="input-@navbar-default-link-color" type="text" value="#777" data-var="@navbar-default-link-color" class="form-control"/>
+    <input id="input-@navbar-default-link-color" type="text" value="@gray" data-var="@navbar-default-link-color" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-link-hover-color">@navbar-default-link-hover-color</label>
-    <input id="input-@navbar-default-link-hover-color" type="text" value="#333" data-var="@navbar-default-link-hover-color" class="form-control"/>
+    <input id="input-@navbar-default-link-hover-color" type="text" value="@gray-darker" data-var="@navbar-default-link-hover-color" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-link-hover-bg">@navbar-default-link-hover-bg</label>
-    <input id="input-@navbar-default-link-hover-bg" type="text" value="transparent" data-var="@navbar-default-link-hover-bg" class="form-control"/>
+    <input id="input-@navbar-default-link-hover-bg" type="text" value="@brand-primary-bg" data-var="@navbar-default-link-hover-bg" class="form-control"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-link-active-color">@navbar-default-link-active-color</label>
-    <input id="input-@navbar-default-link-active-color" type="text" value="#555" data-var="@navbar-default-link-active-color" class="form-control"/>
+    <input id="input-@navbar-default-link-active-color" type="text" value="@text-color" data-var="@navbar-default-link-active-color" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-link-active-bg">@navbar-default-link-active-bg</label>
-    <input id="input-@navbar-default-link-active-bg" type="text" value="darken(@navbar-default-bg, 6.5%)" data-var="@navbar-default-link-active-bg" class="form-control"/>
+    <input id="input-@navbar-default-link-active-bg" type="text" value="@brand-primary-bg" data-var="@navbar-default-link-active-bg" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@navbar-default-link-disabled-color">@navbar-default-link-disabled-color</label>
-    <input id="input-@navbar-default-link-disabled-color" type="text" value="#ccc" data-var="@navbar-default-link-disabled-color" class="form-control"/>
+    <input id="input-@navbar-default-link-disabled-color" type="text" value="@gray-light" data-var="@navbar-default-link-disabled-color" class="form-control"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
@@ -1409,7 +1413,7 @@
 <div class="row">
   <div class="col-xs-4">
     <label for="input-@progress-bg">@progress-bg</label>
-    <input id="input-@progress-bg" type="text" aria-describedby="help-block-@progress-bg" value="#f5f5f5" data-var="@progress-bg" class="form-control"/>
+    <input id="input-@progress-bg" type="text" aria-describedby="help-block-@progress-bg" value="@brand-primary-bg-lightest" data-var="@progress-bg" class="form-control"/>
     <p id="help-block-@progress-bg" class="help-block">Background color of the whole progress component</p>
   </div>
   <div class="col-xs-4">
@@ -1425,7 +1429,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@progress-bar-bg">@progress-bar-bg</label>
-    <input id="input-@progress-bar-bg" type="text" aria-describedby="help-block-@progress-bar-bg" value="@brand-primary" data-var="@progress-bar-bg" class="form-control"/>
+    <input id="input-@progress-bar-bg" type="text" aria-describedby="help-block-@progress-bar-bg" value="@brand-primary-bg-darkest" data-var="@progress-bar-bg" class="form-control"/>
     <p id="help-block-@progress-bar-bg" class="help-block">Default progress bar color</p>
   </div>
   <div class="col-xs-4">
@@ -1674,7 +1678,7 @@
 <div class="row">
   <div class="col-xs-4">
     <label for="input-@well-bg">@well-bg</label>
-    <input id="input-@well-bg" type="text" value="#f5f5f5" data-var="@well-bg" class="form-control"/>
+    <input id="input-@well-bg" type="text" value="@brand-primary-bg" data-var="@well-bg" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@well-border">@well-border</label>
